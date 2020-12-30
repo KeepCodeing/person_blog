@@ -15,7 +15,7 @@
     data() {
       return {
         chart_height: '350px',
-        chart_name: ['20170814.jpg', 'COOKIE.png'],
+        chart_name: ['20170814.jpg', 'COOKIE.png', '7509.jpg', '20190317.jpg'],
         trigger: 'hover',
         base_file: './images/'
       }

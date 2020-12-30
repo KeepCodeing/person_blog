@@ -1,15 +1,15 @@
 <template>
   <div>
-    <NewCarousel />
+
   </div>
 </template>
 
 <script>
-  import NewCarousel from "components/content/carousel/NewCarousel";
+  import MessageContent from "components/content/message/MessageContent";
   export default {
-    name: "Home",
+    name: "MessagePage",
     components: {
-      NewCarousel,
+      MessageContent,
     }
   }
 </script>

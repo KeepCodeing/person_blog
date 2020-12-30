@@ -1,12 +1,16 @@
 <template>
   <div>
-    message
+    <MessageContainer />
   </div>
 </template>
 
 <script>
+  import MessageContainer from "components/content/message/MessageContainer";
   export default {
-    name: "Message"
+    name: "Message",
+    components: {
+      MessageContainer,
+    }
   }
 </script>
 

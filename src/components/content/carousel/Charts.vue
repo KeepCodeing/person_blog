@@ -1,10 +1,8 @@
 <template>
   <div class="block">
     <el-carousel :trigger="trigger" :height="chart_height" class="el-carousel">
-      <el-carousel-item v-for="(item, idx) in chart_name" :key="idx" class="el-carousel__item"
-                        style="background: black">
+      <el-carousel-item v-for="(item, idx) in chart_name" :key="idx" class="el-carousel__item">
         <img :src="base_file + item" alt="" class="carousel-image">
-
       </el-carousel-item>
     </el-carousel>
   </div>

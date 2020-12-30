@@ -18,11 +18,16 @@ const Message = {
   component: () => import('views/message/Message')
 };
 
+const MessagePage = {
+  path: '/message/:id',
+  component: () => import('components/content/message/MessagePage')
+};
 
 const routes = [
   defaultPage,
   Home,
-  Message
+  Message,
+  MessagePage,
 ];
 
 const router = new VueRouter({

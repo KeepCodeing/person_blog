@@ -1,0 +1,11 @@
+{
+  "config": {
+    "menu_color": "#2f3542",
+    "menu_text_color": "#dfe4ea",
+    "menu_act_text_color": "#0fffff",
+    "pages": [
+      {"path": "/home", "name": "首页", "icon": "el-icon-s-home"},
+      {"path": "/message", "name": "留言", "icon": "el-icon-postcard"}
+    ]
+  }
+}
