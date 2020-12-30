@@ -5,6 +5,7 @@ import mutations from './mutations'
 import state from './state'
 import header from './header'
 import carousel from './carousel'
+import record from './record'
 
 Vue.use(Vuex);
 
@@ -14,7 +15,8 @@ export default new Vuex.Store({
   state,
   modules: {
     header,
-    carousel
+    carousel,
+    record
   }
 });
 

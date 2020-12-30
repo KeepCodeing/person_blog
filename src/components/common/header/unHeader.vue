@@ -27,7 +27,7 @@
         menu_act_text_color: '#ffffff',
         pages: [
           {path: '/home', name: '首页', icon: 'el-icon-s-home'},
-          {path: '/message', name: '留言', icon: 'el-icon-postcard'},
+          {path: '/record', name: '留言', icon: 'el-icon-postcard'},
         ],
       }
     },
@@ -64,7 +64,7 @@
           default: function() {
             return [
               {path: '/home', name: '首页', icon: 'el-icon-s-home'},
-              {path: '/message', name: '留言', icon: 'el-icon-postcard'},
+              {path: '/record', name: '留言', icon: 'el-icon-postcard'},
             ];
           }
         }
@@ -74,7 +74,7 @@
       // menu_act_text_color: '#ffffff',
       // pages: [
       //   {path: '/home', name: '首页', icon: 'el-icon-s-home'},
-      //   {path: '/message', name: '留言', icon: 'el-icon-postcard'},
+      //   {path: '/record', name: '留言', icon: 'el-icon-postcard'},
       // ],
       // Menu.props = Object.keys(this.$data);
     },

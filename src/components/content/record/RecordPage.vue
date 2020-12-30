@@ -5,11 +5,11 @@
 </template>
 
 <script>
-  import MessageContent from "components/content/message/MessageContent";
+  import RecordContent from "components/content/record/RecordContent";
   export default {
-    name: "MessagePage",
+    name: "RecordPage",
     components: {
-      MessageContent,
+      RecordContent,
     }
   }
 </script>

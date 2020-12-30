@@ -12,15 +12,15 @@ export default {
     }
   },
   mutations: {
-    [LOAD_CAROUSEL_CONFIG](state) {
-      request({
-        url: 'configs/CarouselConfig.json'
-      }).then(res => state.config = res.config);
+    [LOAD_CAROUSEL_CONFIG](state, config) {
+      state.config = config;
     }
   },
   actions: {
     [GET_CAROUSEL_CONFIG](context) {
-      context.commit(LOAD_CAROUSEL_CONFIG);
+      request({
+        url: 'configs/CarouselConfig.json'
+      }).then(res => context.commit(LOAD_CAROUSEL_CONFIG, res.config));
     }
   }
 }

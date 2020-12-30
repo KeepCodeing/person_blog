@@ -13,21 +13,15 @@ const Home = {
   component: () => import('views/home/Home')
 };
 
-const Message = {
-  path: '/message',
-  component: () => import('views/message/Message')
-};
-
-const MessagePage = {
-  path: '/message/:id',
-  component: () => import('components/content/message/MessagePage')
+const Record = {
+  path: '/records',
+  component: () => import('views/record/Record')
 };
 
 const routes = [
   defaultPage,
   Home,
-  Message,
-  MessagePage,
+  Record,
 ];
 
 const router = new VueRouter({
@@ -35,4 +29,4 @@ const router = new VueRouter({
   routes
 });
 
-export default router
+export default router;

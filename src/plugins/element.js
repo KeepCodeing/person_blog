@@ -2,7 +2,7 @@ import Vue from 'vue'
 // import 'element-ui/lib/theme-chalk/index.css'
 import { Button, Header, Footer, Container, Main,
   Menu, MenuItem, Carousel, CarouselItem, Row, Col,
-  Card, Scrollbar, Tag} from 'element-ui'
+  Card, Scrollbar, Tag, Collapse, CollapseItem} from 'element-ui'
 
 Vue.use(Button);
 Vue.use(Header);
@@ -18,4 +18,6 @@ Vue.use(Col);
 Vue.use(Card);
 Vue.use(Scrollbar);
 Vue.use(Tag);
+Vue.use(Collapse);
+Vue.use(CollapseItem);
 

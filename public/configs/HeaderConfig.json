@@ -5,7 +5,7 @@
     "menu_act_text_color": "#0fffff",
     "pages": [
       {"path": "/home", "name": "首页", "icon": "el-icon-s-home"},
-      {"path": "/message", "name": "留言", "icon": "el-icon-postcard"}
+      {"path": "/records", "name": "留言", "icon": "el-icon-postcard"}
     ]
   }
 }
